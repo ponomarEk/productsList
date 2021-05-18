@@ -1,0 +1,75 @@
+.product{
+    width: 250px;
+    border: double 5px black;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.product p{
+    font-size: 14px;
+}
+.link{
+    margin: 10px 0;
+    text-decoration: none;
+    color: black;
+}
+.link:hover{
+    text-decoration: underline;
+    color: rgb(106, 89, 122);
+}
+#image{
+    width: 250px;
+    height: 200px;
+    border-bottom: dotted black 1px;
+}
+h4{
+    margin-bottom: 0;
+}
+.modal{
+    text-align: center;
+}
+.buttons{
+    margin: auto;
+    margin-top: 30px;
+    width: 80%;
+}
+#first{
+    float: left;
+    margin-left: 30px;
+    width: 80px;
+    height: 30px;
+    border-radius: 25px;
+    border: solid black 1px;
+    background-color: rgb(237, 214, 250);
+}
+#second{
+    float: right;
+    margin-right: 30px;
+    width: 80px;
+    height: 30px;
+    border-radius: 25px;
+    border: solid black 1px;
+    background-color: rgb(237, 214, 250);
+}
+#first:hover{
+    background-color: rgb(209, 190, 219);
+}
+#second:hover{
+    background-color: rgb(209, 190, 219);
+}
+.options{
+    margin-left: auto;
+    margin-bottom: 0;
+    margin-right: auto;
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+}
+.delete{
+    color: rgb(214, 2, 2);
+}
+.delete:hover{
+    text-decoration: underline;
+}

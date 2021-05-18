@@ -1,0 +1,79 @@
+.container{
+   text-align: center;
+}
+
+.container h3{
+    font-size: 35px;
+}
+.productsList{
+    display:grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 2vw;
+    margin: 0 50px;
+}
+.options{
+    margin-bottom: 30px;
+}
+
+.options button{
+    width: 120px;
+    height: 50px;
+    border-radius: 25px;
+    border: black solid 1px;
+    margin: 0 40px;
+    background-color: rgb(237, 214, 250);
+}
+.options button:hover{
+    background-color: rgb(209, 190, 219);
+}
+.modal{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: left;
+    width: 90%;
+}
+#add{
+    float: left;
+    margin-left: 50px;
+    width: 90px;
+    height: 33px;
+    border-radius: 25px;
+    border: solid black 1px;
+    background-color: rgb(237, 214, 250);
+}
+#cancel{
+    float: right;
+    margin-right: 50px;
+    width: 90px;
+    height: 33px;
+    border-radius: 25px;
+    border: solid black 1px;
+    background-color: rgb(237, 214, 250);
+}
+#cancel:hover{
+    background-color: rgb(209, 190, 219);
+}
+#add:hover{
+    background-color: rgb(209, 190, 219);
+}
+.inputField{
+    float: right;
+    width: 265px;
+    height: 30px;
+    border-radius: 25px;
+    border: solid black 1px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+label{
+    margin: 20px 0;
+}
+
+.buttons{
+    margin-top: 15px;
+}
+input {
+    outline:none;
+}
